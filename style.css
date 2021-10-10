@@ -35,7 +35,6 @@ body {
 
 .paragraph {
   font-size: 14px;
-  /* margin-top: 10px; */
   padding: 15px;
 }
 
@@ -54,6 +53,8 @@ body {
   width: 250px;
   margin-left: 25px;
   border-radius: 5px;
+  font-size: 14px;
+  height: 60px;
 }
 
 button {
@@ -71,5 +72,38 @@ button {
 }
 
 .cancel {
-  padding-top: 20px;
+  font-size: 14px;
+  margin-top: 25px;
+}
+
+.cancel1 {
+  text-decoration: none;
+  color: black;
+}
+
+.music {
+  height: 40px;
+  margin: 10px;
+}
+
+.annual {
+  top: -55px;
+  left: 60px;
+  position: relative;
+  font-weight: 900;
+}
+
+.price {
+  top: -70px;
+  left: 60px;
+  position: relative;
+}
+
+.change {
+  top: -100px;
+  left: 180px;
+  position: relative;
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
 }
