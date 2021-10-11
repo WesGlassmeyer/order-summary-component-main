@@ -71,6 +71,11 @@ button {
   box-shadow: 0 10px 5px hsl(225, 100%, 94%);
 }
 
+button:hover {
+  background-color: hsl(245, 75%, 60%);
+  cursor: pointer;
+}
+
 .cancel {
   font-size: 14px;
   margin-top: 25px;
@@ -106,4 +111,16 @@ button {
   text-decoration: underline;
   color: hsl(245, 75%, 52%);
   font-weight: 700;
+}
+
+.change:hover {
+  text-decoration: none;
+  color: hsl(245, 75%, 60%);
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: hsl(225, 100%, 94%);
+    margin-left: 20px;
+  }
 }
